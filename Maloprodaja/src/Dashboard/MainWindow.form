@@ -215,9 +215,6 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Poppins" size="12" style="0"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/assets/Redesign Icons/cashier-machine.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Kasa"/>
               </Properties>
               <Events>
@@ -228,9 +225,6 @@
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Poppins" size="12" style="0"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/assets/Redesign Icons/list.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Evidencija/Historija"/>
               </Properties>
@@ -243,9 +237,6 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Poppins" size="12" style="0"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/assets/Redesign Icons/open.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Otvori kasu"/>
               </Properties>
               <Events>
@@ -256,9 +247,6 @@
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Poppins" size="12" style="0"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/assets/Redesign Icons/close.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Zaklju&#x10d;i kasu"/>
               </Properties>

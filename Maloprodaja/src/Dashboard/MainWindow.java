@@ -295,7 +295,6 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu7.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
 
         registerOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        registerOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Redesign Icons/cashier-machine.png"))); // NOI18N
         registerOption.setText("Kasa");
         registerOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -305,7 +304,6 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu7.add(registerOption);
 
         registerHistoryOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        registerHistoryOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Redesign Icons/list.png"))); // NOI18N
         registerHistoryOption.setText("Evidencija/Historija");
         registerHistoryOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -315,7 +313,6 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu7.add(registerHistoryOption);
 
         openRegisterOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        openRegisterOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Redesign Icons/open.png"))); // NOI18N
         openRegisterOption.setText("Otvori kasu");
         openRegisterOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -325,7 +322,6 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu7.add(openRegisterOption);
 
         closeRegisterOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        closeRegisterOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Redesign Icons/close.png"))); // NOI18N
         closeRegisterOption.setText("Zaključi kasu");
         closeRegisterOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
