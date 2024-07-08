@@ -237,6 +237,7 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu6.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
 
         receiptManagementOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        receiptManagementOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/shopping-list.png"))); // NOI18N
         receiptManagementOption.setText("Evidencija");
         receiptManagementOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -250,6 +251,8 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu3.setText("Artikli");
         jMenu3.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
 
+        addNewItemOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        addNewItemOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/new.png"))); // NOI18N
         addNewItemOption.setText("Dodaj artikal");
         addNewItemOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -259,6 +262,7 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu3.add(addNewItemOption);
 
         itemsManagementOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        itemsManagementOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/shopping-list.png"))); // NOI18N
         itemsManagementOption.setText("Evidencija i upravljanje");
         itemsManagementOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -272,6 +276,8 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu4.setText("Distributeri");
         jMenu4.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
 
+        addNewDistributorOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        addNewDistributorOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/new.png"))); // NOI18N
         addNewDistributorOption.setText("Dodaj distributera");
         addNewDistributorOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -281,6 +287,7 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu4.add(addNewDistributorOption);
 
         distributorsOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        distributorsOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/delivery-truck.png"))); // NOI18N
         distributorsOption.setText("Evidencija i upravljanje");
         distributorsOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -295,6 +302,7 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu7.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
 
         registerOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        registerOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/cashier-machine.png"))); // NOI18N
         registerOption.setText("Kasa");
         registerOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -304,6 +312,7 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu7.add(registerOption);
 
         registerHistoryOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        registerHistoryOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/history.png"))); // NOI18N
         registerHistoryOption.setText("Evidencija/Historija");
         registerHistoryOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -313,6 +322,7 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu7.add(registerHistoryOption);
 
         openRegisterOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        openRegisterOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/unlock.png"))); // NOI18N
         openRegisterOption.setText("Otvori kasu");
         openRegisterOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -322,6 +332,7 @@ public class MainWindow extends javax.swing.JFrame {
         jMenu7.add(openRegisterOption);
 
         closeRegisterOption.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        closeRegisterOption.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/lock.png"))); // NOI18N
         closeRegisterOption.setText("Zaključi kasu");
         closeRegisterOption.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
