@@ -149,7 +149,7 @@ public class RegisterHistory extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);
-        setTitle("Upravljanje zaposlenika");
+        setTitle("Evidencija kase");
         setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/Menu Icons/users.png"))); // NOI18N
         setMinimumSize(new java.awt.Dimension(900, 500));
